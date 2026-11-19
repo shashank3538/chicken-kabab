@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Vanarasi Famous Kabab - Fresh, Hot & Delicious Chicken Kababs in Vanarasi Village, Muduvadi Post, Kolar. Order on WhatsApp: 9113553538. Half KG ₹200, 1 KG ₹400.">
+  <meta name="keywords" content="Vanarasi Famous Kabab, Chicken Kabab Kolar, Kabab Muduvadi, Best Kababs Kolar, Karnataka Kabab, Chicken Fry Vanarasi, Kolar Non Veg">
+  <meta name="theme-color" content="#0e0b08">
+  <meta property="og:title" content="Vanarasi Famous Kabab | Fresh, Hot & Delicious Kababs">
+  <meta property="og:description" content="Authentic, crispy and juicy chicken kababs in Vanarasi Village, Kolar. Order directly on WhatsApp: 9113553538!">
+  <meta property="og:type" content="restaurant.restaurant">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/d/d7/Chicken_65.jpg">
+
+  <title>Vanarasi Famous Kabab | Fresh, Hot & Delicious Kababs | Kolar</title>
+
+  <!-- Google Fonts: Plus Jakarta Sans & Noto Sans Kannada -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Kannada:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Cinzel:wght@700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Schema.org Structured Data for Local Business / Restaurant -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Vanarasi Famous Kabab",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Chicken_65.jpg",
+    "telephone": "+919113553538",
+    "servesCuisine": "Indian, Chicken Kabab, Fast Food",
+    "priceRange": "₹₹",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Vanarasi Village, Muduvadi Post",
+      "addressLocality": "Kolar Taluk",
+      "addressRegion": "Karnataka",
+      "addressCountry": "IN"
+    },
+    "hasMenu": {
+      "@type": "Menu",
+      "name": "Kabab Menu",
+      "hasMenuItem": [
+        {
+          "@type": "MenuItem",
+          "name": "Half KG Kabab",
+          "price": "200",
+          "priceCurrency": "INR"
+        },
+        {
+          "@type": "MenuItem",
+          "name": "1 KG Kabab",
+          "price": "400",
+          "priceCurrency": "INR"
+        }
+      ]
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Announcement Bar / Top Strip -->
+  <div class="top-banner">
+    <div class="container top-banner-content">
+      <div class="banner-item">
+        <i class="fa-solid fa-fire-flame-curved banner-icon"></i>
+        <span data-i18n="topBannerText">Piping Hot & Fresh Village Chicken Kababs! Order now on WhatsApp.</span>
+      </div>
+      <div class="banner-contact">
+        <a href="tel:9113553538" class="banner-link">
+          <i class="fa-solid fa-phone"></i> 9113553538
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navigation Bar -->
+  <header class="navbar-wrapper" id="navbar">
+    <div class="container navbar-container">
+      <a href="#home" class="brand-logo">
+        <div class="logo-emblem">
+          <i class="fa-solid fa-fire"></i>
+        </div>
+        <div class="brand-text">
+          <span class="brand-name" data-i18n="brandName">Vanarasi Famous Kabab</span>
+          <span class="brand-sub" data-i18n="brandSub">Muduvadi Post • Kolar</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-links">
+        <a href="#home" class="nav-link active" data-i18n="navHome">Home</a>
+        <a href="#menu" class="nav-link" data-i18n="navMenu">Menu</a>
+        <a href="#about" class="nav-link" data-i18n="navAbout">About Us</a>
+        <a href="#order" class="nav-link" data-i18n="navOrder">Order Online</a>
+        <a href="#contact" class="nav-link" data-i18n="navContact">Contact</a>
+      </nav>
+
+      <!-- Actions: Language Toggle & CTA Button -->
+      <div class="nav-actions">
+        <!-- Language Switcher Button -->
+        <button id="langToggleBtn" class="lang-switch-btn" aria-label="Switch Language" title="Switch Language / ಭಾಷೆ ಬದಲಾಯಿಸಿ">
+          <i class="fa-solid fa-globe"></i>
+          <span id="langLabel" class="lang-label">ಕನ್ನಡ</span>
+        </button>
+
+        <!-- Order WhatsApp Header Button -->
+        <a href="https://wa.me/919113553538?text=Hello%20Vanarasi%20Famous%20Kabab%2C%20I%20want%20to%20place%20an%20order." 
+           target="_blank" 
+           rel="noopener noreferrer" 
+           class="btn btn-whatsapp-nav">
+          <i class="fa-brands fa-whatsapp"></i>
+          <span data-i18n="orderNowNav">Order on WhatsApp</span>
+        </a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button id="mobileMenuBtn" class="mobile-toggle" aria-label="Toggle navigation menu">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer Navigation -->
+    <div class="mobile-drawer" id="mobileDrawer">
+      <nav class="mobile-nav-links">
+        <a href="#home" class="mobile-nav-link" data-i18n="navHome">Home</a>
+        <a href="#menu" class="mobile-nav-link" data-i18n="navMenu">Menu</a>
+        <a href="#about" class="mobile-nav-link" data-i18n="navAbout">About Us</a>
+        <a href="#order" class="mobile-nav-link" data-i18n="navOrder">Order Online</a>
+        <a href="#contact" class="mobile-nav-link" data-i18n="navContact">Contact</a>
+      </nav>
+      <div class="mobile-drawer-footer">
+        <a href="https://wa.me/919113553538?text=Hello%20Vanarasi%20Famous%20Kabab%2C%20I%20want%20to%20place%20an%20order." 
+           target="_blank" 
+           rel="noopener noreferrer" 
+           class="btn btn-whatsapp btn-block">
+          <i class="fa-brands fa-whatsapp"></i>
+          <span data-i18n="orderNow">Order on WhatsApp</span>
+        </a>
+        <a href="tel:9113553538" class="btn btn-outline btn-block mt-2">
+          <i class="fa-solid fa-phone"></i>
+          <span data-i18n="callUs">Call 9113553538</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="home">
+    <div class="hero-backdrop"></div>
+    <div class="hero-smoke"></div>
+    <div class="container hero-container">
+      <div class="hero-badge">
+        <i class="fa-solid fa-crown text-gold"></i>
+        <span data-i18n="heroBadge">Kolar's Authentic Taste</span>
+      </div>
+
+      <h1 class="hero-title">
+        <span class="hero-shop-name" data-i18n="heroShopName">Vanarasi Famous Kabab</span>
+        <span class="hero-headline" data-i18n="heroHeadline">Fresh, Hot &amp; Delicious Kababs!</span>
+      </h1>
+
+      <p class="hero-tagline" data-i18n="heroTagline">
+        Crispy on the outside, succulent and juicy on the inside. Marinated with secret homemade village spices and freshly fried hot just for you!
+      </p>
+
+      <!-- Price Highlights inside Hero -->
+      <div class="hero-price-strip">
+        <div class="price-chip">
+          <span class="chip-label" data-i18n="halfKgLabel">Half KG Kabab</span>
+          <span class="chip-price">₹200</span>
+        </div>
+        <div class="price-chip highlight-chip">
+          <span class="chip-badge" data-i18n="popularBadge">POPULAR</span>
+          <span class="chip-label" data-i18n="oneKgLabel">1 KG Kabab</span>
+          <span class="chip-price">₹400</span>
+        </div>
+      </div>
+
+      <!-- Hero Call To Actions -->
+      <div class="hero-actions">
+        <a href="https://wa.me/919113553538?text=Hello%20Vanarasi%20Famous%20Kabab%2C%20I%20want%20to%20place%20an%20order." 
+           target="_blank" 
+           rel="noopener noreferrer" 
+           class="btn btn-whatsapp btn-lg pulse-btn">
+          <i class="fa-brands fa-whatsapp"></i>
+          <span data-i18n="heroBtnWhatsApp">Order on WhatsApp</span>
+        </a>
+        <a href="#menu" class="btn btn-gold btn-lg">
+          <i class="fa-solid fa-utensils"></i>
+          <span data-i18n="heroBtnMenu">Explore Menu</span>
+        </a>
+        <a href="#contact" class="btn btn-outline-light btn-lg">
+          <i class="fa-solid fa-location-dot"></i>
+          <span data-i18n="heroBtnLocation">Find Us</span>
+        </a>
+      </div>
+
+      <!-- Quick Trust Indicators -->
+      <div class="hero-features">
+        <div class="feature-item">
+          <i class="fa-solid fa-bowl-rice feature-icon"></i>
+          <span data-i18n="feature1">100% Fresh Chicken</span>
+        </div>
+        <div class="feature-item">
+          <i class="fa-solid fa-pepper-hot feature-icon"></i>
+          <span data-i18n="feature2">Traditional Spices</span>
+        </div>
+        <div class="feature-item">
+          <i class="fa-solid fa-clock feature-icon"></i>
+          <span data-i18n="feature3">Served Piping Hot</span>
+        </div>
+        <div class="feature-item">
+          <i class="fa-solid fa-heart feature-icon"></i>
+          <span data-i18n="feature4">Loved by Travelers</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section class="section menu-section" id="menu">
+    <div class="container">
+      <div class="section-header text-center">
+        <div class="section-tag">
+          <i class="fa-solid fa-fire text-gold"></i>
+          <span data-i18n="menuSectionTag">OUR SPECIALTIES</span>
+        </div>
+        <h2 class="section-title" data-i18n="menuTitle">Our Signature Kabab Menu</h2>
+        <div class="title-divider">
+          <span></span>
+          <i class="fa-solid fa-drumstick-bite text-gold"></i>
+          <span></span>
+        </div>
+        <p class="section-subtitle" data-i18n="menuSubtitle">
+          Made with premium, fresh farm chicken, infused with authentic spices, and fried crispy to golden perfection upon order.
+        </p>
+      </div>
+
+      <div class="menu-grid">
+        <!-- Half KG Card -->
+        <div class="menu-card">
+          <div class="card-image-wrapper">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Chicken_Kabab.jpg" 
+                 alt="Half KG Delicious Red Chicken Kabab" 
+                 class="card-img" 
+                 loading="lazy">
+            <span class="card-badge" data-i18n="halfKgBadge">Standard Pack</span>
+          </div>
+          <div class="card-content">
+            <div class="card-heading">
+              <h3 class="card-item-title" data-i18n="menuItem1Title">Half KG Kabab</h3>
+              <div class="card-price">₹200</div>
+            </div>
+            <p class="card-desc" data-i18n="menuItem1Desc">
+              Generous portion of fresh, spicy, and deep-fried crispy chicken kabab. Perfect snack or meal for 1-2 people. Served hot with sliced onions and fresh lemon wedges.
+            </p>
+            <div class="card-specs">
+              <span class="spec-tag"><i class="fa-solid fa-scale-balanced"></i> <strong data-i18n="weightHalf">500 Grams</strong></span>
+              <span class="spec-tag"><i class="fa-solid fa-temperature-arrow-up"></i> <strong data-i18n="servedFresh">Freshly Fried</strong></span>
+            </div>
+            <a href="https://wa.me/919113553538?text=Hello%20Vanarasi%20Famous%20Kabab%2C%20I%20want%20to%20order%20Half%20KG%20Kabab%20(%E2%82%B9200)." 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               class="btn btn-whatsapp card-btn">
+              <i class="fa-brands fa-whatsapp"></i>
+              <span data-i18n="orderHalfKgBtn">Order Half KG (₹200)</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- 1 KG Card (Featured) -->
+        <div class="menu-card featured-card">
+          <div class="card-ribbon" data-i18n="bestValueRibbon">BEST VALUE • POPULAR</div>
+          <div class="card-image-wrapper">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Chicken_kabaab.JPG" 
+                 alt="1 KG Family Pack Spicy Red Chicken Kabab" 
+                 class="card-img" 
+                 loading="lazy">
+            <span class="card-badge badge-gold" data-i18n="familyPackBadge">Family Pack</span>
+          </div>
+          <div class="card-content">
+            <div class="card-heading">
+              <h3 class="card-item-title" data-i18n="menuItem2Title">1 KG Kabab</h3>
+              <div class="card-price price-gold">₹400</div>
+            </div>
+            <p class="card-desc" data-i18n="menuItem2Desc">
+              Full 1 Kilogram family-sized platter of delicious, tender, and crispy kababs. Ideal for families, friends' gatherings, celebrations, or hearty weekend dinners.
+            </p>
+            <div class="card-specs">
+              <span class="spec-tag"><i class="fa-solid fa-scale-balanced"></i> <strong data-i18n="weightOne">1000 Grams (1 KG)</strong></span>
+              <span class="spec-tag"><i class="fa-solid fa-users"></i> <strong data-i18n="servesFamily">Serves 3-4 People</strong></span>
+            </div>
+            <a href="https://wa.me/919113553538?text=Hello%20Vanarasi%20Famous%20Kabab%2C%20I%20want%20to%20order%201%20KG%20Kabab%20(%E2%82%B9400)." 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               class="btn btn-whatsapp card-btn">
+              <i class="fa-brands fa-whatsapp"></i>
+              <span data-i18n="orderOneKgBtn">Order 1 KG (₹400)</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick Ordering Notice -->
+      <div class="menu-guarantee-box">
+        <div class="guarantee-icon">
+          <i class="fa-solid fa-circle-check"></i>
+        </div>
+        <div class="guarantee-text">
+          <h4 data-i18n="guaranteeTitle">Hot & Fresh Preparation Guarantee</h4>
+          <p data-i18n="guaranteeDesc">We never serve pre-fried cold food. Every order is freshly fried in clean, hot oil upon receiving your request, ensuring supreme crunch and aromatic flavor.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive WhatsApp Order Calculator Section -->
+  <section class="section order-section" id="order">
+    <div class="container">
+      <div class="order-box-wrapper">
+        <div class="order-intro">
+          <div class="section-tag">
+            <i class="fa-brands fa-whatsapp text-whatsapp"></i>
+            <span data-i18n="calcTag">QUICK & EASY ORDERING</span>
+          </div>
+          <h2 class="section-title text-left" data-i18n="calcTitle">Order in 30 Seconds via WhatsApp</h2>
+          <p class="order-intro-desc" data-i18n="calcDesc">
+            No complicated apps or sign-ups required! Just pick your quantity below and click the button to send your order directly to our WhatsApp. We will prepare your hot kababs right away.
+          </p>
+
+          <div class="order-steps-list">
+            <div class="step-card">
+              <div class="step-num">1</div>
+              <div class="step-info">
+                <h4 data-i18n="step1Title">Select Quantity</h4>
+                <p data-i18n="step1Desc">Choose how many Half KG or 1 KG packs you desire.</p>
+              </div>
+            </div>
+            <div class="step-card">
+              <div class="step-num">2</div>
+              <div class="step-info">
+                <h4 data-i18n="step2Title">Click Order Button</h4>
+                <p data-i18n="step2Desc">It opens WhatsApp with your pre-filled bill ready.</p>
+              </div>
+            </div>
+            <div class="step-card">
+              <div class="step-num">3</div>
+              <div class="step-info">
+                <h4 data-i18n="step3Title">Collect Fresh &amp; Hot</h4>
+                <p data-i18n="step3Desc">Pick up your sizzling hot kabab from our Vanarasi shop.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Interactive Calculator Widget -->
+        <div class="order-calc-card">
+          <div class="calc-header">
+            <h3 data-i18n="calcCardTitle">Custom Order Builder</h3>
+            <span class="calc-live-pill"><i class="fa-solid fa-circle-dot"></i> Live Total</span>
+          </div>
+
+          <div class="calc-items">
+            <!-- Half KG Counter -->
+            <div class="calc-row">
+              <div class="calc-item-info">
+                <span class="calc-name" data-i18n="calcItemHalf">Half KG Kabab</span>
+                <span class="calc-rate">₹200 / pack</span>
+              </div>
+              <div class="counter-control">
+                <button type="button" class="btn-counter" onclick="updateQty('half', -1)" aria-label="Decrease Half KG quantity">-</button>
+                <span id="qtyHalf" class="counter-value">1</span>
+                <button type="button" class="btn-counter" onclick="updateQty('half', 1)" aria-label="Increase Half KG quantity">+</button>
+              </div>
+            </div>
+
+            <!-- 1 KG Counter -->
+            <div class="calc-row">
+              <div class="calc-item-info">
+                <span class="calc-name" data-i18n="calcItemOne">1 KG Kabab</span>
+                <span class="calc-rate">₹400 / pack</span>
+              </div>
+              <div class="counter-control">
+                <button type="button" class="btn-counter" onclick="updateQty('one', -1)" aria-label="Decrease 1 KG quantity">-</button>
+                <span id="qtyOne" class="counter-value">0</span>
+                <button type="button" class="btn-counter" onclick="updateQty('one', 1)" aria-label="Increase 1 KG quantity">+</button>
+              </div>
+            </div>
+
+            <!-- Customer Name Input -->
+            <div class="calc-input-group">
+              <label for="custName" data-i18n="custNameLabel">Your Name (Optional):</label>
+              <input type="text" id="custName" placeholder="e.g. Ramesh / Suresh" class="calc-input">
+            </div>
+
+            <!-- Special Note Input -->
+            <div class="calc-input-group">
+              <label for="custNote" data-i18n="custNoteLabel">Special Instructions (Optional):</label>
+              <input type="text" id="custNote" placeholder="e.g. Extra spicy / extra lemon & onions" class="calc-input">
+            </div>
+          </div>
+
+          <!-- Total Calculation Summary -->
+          <div class="calc-total-box">
+            <div class="total-label" data-i18n="calcTotalLabel">Total Amount:</div>
+            <div class="total-price" id="calcTotalPrice">₹200</div>
+          </div>
+
+          <!-- Dynamic WhatsApp Submit Button -->
+          <button type="button" id="calcSubmitBtn" class="btn btn-whatsapp btn-block btn-lg" onclick="sendCustomWhatsAppOrder()">
+            <i class="fa-brands fa-whatsapp"></i>
+            <span data-i18n="calcSubmitBtn">Send Order via WhatsApp</span>
+          </button>
+
+          <p class="calc-footnote">
+            <i class="fa-solid fa-lock text-gold"></i>
+            <span data-i18n="calcFootnote">No advance online payment required. Pay upon pickup or via UPI at the counter.</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section class="section about-section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image-collage">
+          <div class="collage-main">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Chicken_Tikka.jpg" 
+                 alt="Sizzling Red Charcoal Grilled Chicken Kababs" 
+                 class="collage-img main-img" 
+                 loading="lazy">
+          </div>
+          <div class="collage-sub">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/72/Chicken_Fry_2.jpg" 
+                 alt="Crispy Red Spiced Chicken Kabab Fry" 
+                 class="collage-img sub-img" 
+                 loading="lazy">
+          </div>
+          <div class="experience-card">
+            <div class="exp-number"><i class="fa-solid fa-heart text-gold"></i></div>
+            <div class="exp-text">
+              <strong data-i18n="aboutBadgeTitle">Authentic Village Recipe</strong>
+              <span data-i18n="aboutBadgeSub">Prepared with love &amp; passion</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-text-content">
+          <div class="section-tag">
+            <i class="fa-solid fa-utensils text-gold"></i>
+            <span data-i18n="aboutTag">ABOUT OUR SHOP</span>
+          </div>
+          <h2 class="section-title text-left" data-i18n="aboutTitle">Welcome to Vanarasi Famous Kabab</h2>
+          
+          <div class="about-body">
+            <p data-i18n="aboutPara1">
+              Located peacefully in <strong>Vanarasi Village (Muduvadi Post, Kolar Taluk)</strong>, Vanarasi Famous Kabab was established with one passionate mission: to serve the crispiest, juiciest, and most flavor-packed chicken kababs to our local community and highway travelers.
+            </p>
+            <p data-i18n="aboutPara2">
+              We take deep pride in traditional preparation. Every batch of chicken is sourced fresh every day, cut cleanly, and marinated for hours with our special blend of aromatic village spices, ginger-garlic paste, and crushed herbs. When you order, it is fried fresh to order in hot oil to lock in all the mouth-watering flavors.
+            </p>
+            <p data-i18n="aboutPara3">
+              Whether you are craving a crunchy evening snack, picking up dinner for your family, or stopping by while passing through Kolar, you will always be greeted with warmth and the irresistible aroma of authentic South Indian kababs.
+            </p>
+          </div>
+
+          <div class="about-highlights-list">
+            <div class="about-highlight-item">
+              <i class="fa-solid fa-circle-check text-gold"></i>
+              <div>
+                <strong data-i18n="aboutHigh1Title">Daily Fresh Poultry</strong>
+                <p data-i18n="aboutHigh1Desc">Only hygienic, quality fresh chicken used daily.</p>
+              </div>
+            </div>
+            <div class="about-highlight-item">
+              <i class="fa-solid fa-circle-check text-gold"></i>
+              <div>
+                <strong data-i18n="aboutHigh2Title">Secret Spices Blend</strong>
+                <p data-i18n="aboutHigh2Desc">Hand-ground spices for that unforgettable village punch.</p>
+              </div>
+            </div>
+            <div class="about-highlight-item">
+              <i class="fa-solid fa-circle-check text-gold"></i>
+              <div>
+                <strong data-i18n="aboutHigh3Title">Honest &amp; Affordable Pricing</strong>
+                <p data-i18n="aboutHigh3Desc">Half KG for ₹200 and 1 KG for ₹400 – unmatched value.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-cta">
+            <a href="https://wa.me/919113553538?text=Hello%20Vanarasi%20Famous%20Kabab%2C%20I%20want%20to%20place%20an%20order." 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               class="btn btn-whatsapp">
+              <i class="fa-brands fa-whatsapp"></i>
+              <span data-i18n="aboutBtnWhatsApp">Place Your Order</span>
+            </a>
+            <a href="tel:9113553538" class="btn btn-outline-light">
+              <i class="fa-solid fa-phone"></i>
+              <span data-i18n="callUsBtn">Call 9113553538</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Big Callout Section / WhatsApp Order Banner -->
+  <section class="banner-cta-section">
+    <div class="container">
+      <div class="banner-cta-card">
+        <div class="banner-cta-content">
+          <div class="cta-flame-icon">
+            <i class="fa-solid fa-fire-burner"></i>
+          </div>
+          <h2 class="banner-cta-title" data-i18n="bigCtaTitle">Craving Fresh Kababs Right Now?</h2>
+          <p class="banner-cta-desc" data-i18n="bigCtaDesc">
+            Call or send us a WhatsApp message to book your pack in advance. Freshly made, packed hot, and ready for you!
+          </p>
+          <div class="banner-cta-buttons">
+            <a href="https://wa.me/919113553538?text=Hello%20Vanarasi%20Famous%20Kabab%2C%20I%20want%20to%20place%20an%20order." 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               class="btn btn-whatsapp btn-lg pulse-btn">
+              <i class="fa-brands fa-whatsapp"></i>
+              <span data-i18n="bigCtaBtnWA">Order on WhatsApp: 9113553538</span>
+            </a>
+            <a href="tel:9113553538" class="btn btn-gold btn-lg">
+              <i class="fa-solid fa-phone"></i>
+              <span data-i18n="bigCtaBtnCall">Call Shop Directly</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Us & Location Section -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="section-header text-center">
+        <div class="section-tag">
+          <i class="fa-solid fa-location-dot text-gold"></i>
+          <span data-i18n="contactTag">FIND OUR SHOP</span>
+        </div>
+        <h2 class="section-title" data-i18n="contactTitle">Visit Us or Get in Touch</h2>
+        <div class="title-divider">
+          <span></span>
+          <i class="fa-solid fa-map-location-dot text-gold"></i>
+          <span></span>
+        </div>
+        <p class="section-subtitle" data-i18n="contactSubtitle">
+          We are conveniently located in Vanarasi Village near Muduvadi Post, Kolar. Drop by or contact us anytime!
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Contact Cards Column -->
+        <div class="contact-info-column">
+          <!-- Card 1: Shop Name & Details -->
+          <div class="contact-card">
+            <div class="contact-card-icon">
+              <i class="fa-solid fa-shop"></i>
+            </div>
+            <div class="contact-card-body">
+              <h4 data-i18n="contactShopLabel">Shop Name</h4>
+              <p class="highlight-text" data-i18n="brandName">Vanarasi Famous Kabab</p>
+              <span class="sub-meta" data-i18n="contactShopSub">Authentic Chicken Kabab Center</span>
+            </div>
+          </div>
+
+          <!-- Card 2: Phone & WhatsApp -->
+          <div class="contact-card">
+            <div class="contact-card-icon">
+              <i class="fa-solid fa-phone-volume"></i>
+            </div>
+            <div class="contact-card-body">
+              <h4 data-i18n="contactPhoneLabel">Phone &amp; WhatsApp</h4>
+              <a href="tel:9113553538" class="contact-link highlight-text">
+                +91 9113553538
+              </a>
+              <div class="quick-contact-actions">
+                <a href="tel:9113553538" class="mini-btn btn-call">
+                  <i class="fa-solid fa-phone"></i> <span data-i18n="callNow">Call Now</span>
+                </a>
+                <a href="https://wa.me/919113553538?text=Hello%20Vanarasi%20Famous%20Kabab%2C%20I%20want%20to%20place%20an%20order." 
+                   target="_blank" 
+                   rel="noopener noreferrer" 
+                   class="mini-btn btn-wa">
+                  <i class="fa-brands fa-whatsapp"></i> <span data-i18n="chatWA">WhatsApp</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3: Address -->
+          <div class="contact-card">
+            <div class="contact-card-icon">
+              <i class="fa-solid fa-location-pin"></i>
+            </div>
+            <div class="contact-card-body">
+              <h4 data-i18n="contactAddressLabel">Shop Address</h4>
+              <p class="address-text" data-i18n="contactAddressFull">
+                Vanarasi Village, Muduvadi Post, Kolar Taluk, Kolar District, Karnataka, India.
+              </p>
+              <a href="https://www.google.com/maps/search/?api=1&query=Vanarasi+Village+Muduvadi+Post+Kolar+Karnataka" 
+                 target="_blank" 
+                 rel="noopener noreferrer" 
+                 class="directions-link">
+                <i class="fa-solid fa-diamond-turn-right"></i>
+                <span data-i18n="getDirectionsBtn">Open in Google Maps / Directions</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Card 4: Prices Summary -->
+          <div class="contact-card pricing-reminder-card">
+            <div class="contact-card-icon text-gold">
+              <i class="fa-solid fa-tag"></i>
+            </div>
+            <div class="contact-card-body">
+              <h4 data-i18n="contactPricesLabel">Current Menu Rates</h4>
+              <div class="reminder-prices">
+                <span class="badge-reminder" data-i18n="rate1">Half KG: ₹200</span>
+                <span class="badge-reminder" data-i18n="rate2">1 KG: ₹400</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Google Maps Embed Column -->
+        <div class="contact-map-column">
+          <div class="map-card-wrapper">
+            <div class="map-header">
+              <div class="map-header-left">
+                <i class="fa-solid fa-map-location text-gold"></i>
+                <div>
+                  <h4 data-i18n="mapHeading">Vanarasi Village, Muduvadi, Kolar</h4>
+                  <span data-i18n="mapSub">Kolar District, Karnataka</span>
+                </div>
+              </div>
+              <a href="https://www.google.com/maps/search/?api=1&query=Vanarasi+Village+Muduvadi+Post+Kolar+Karnataka" 
+                 target="_blank" 
+                 rel="noopener noreferrer" 
+                 class="btn btn-sm btn-gold">
+                <i class="fa-solid fa-up-right-from-square"></i>
+                <span data-i18n="openMap">Open Map</span>
+              </a>
+            </div>
+
+            <div class="map-iframe-container">
+              <!-- Google Maps Embed for Muduvadi / Vanarasi area, Kolar -->
+              <iframe 
+                title="Vanarasi Famous Kabab Location Map" 
+                src="https://maps.google.com/maps?q=Vanarasi%20Village,%20Muduvadi,%20Kolar,%20Karnataka,%20India&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+                width="100%" 
+                height="100%" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+            </div>
+
+            <div class="map-footer">
+              <p>
+                <i class="fa-solid fa-circle-info text-gold"></i>
+                <span data-i18n="mapTip">Serving customers across Vanarasi, Muduvadi, and all travelers on the Kolar route.</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-col footer-col-brand">
+        <div class="footer-logo">
+          <div class="logo-emblem">
+            <i class="fa-solid fa-fire"></i>
+          </div>
+          <div>
+            <h3 class="footer-brand-title" data-i18n="brandName">Vanarasi Famous Kabab</h3>
+            <span class="footer-tagline" data-i18n="footerTagline">Fresh, Hot &amp; Delicious Kababs in Kolar</span>
+          </div>
+        </div>
+        <p class="footer-about-text" data-i18n="footerAbout">
+          Serving freshly marinated, hot and crispy chicken kababs prepared with authentic village spices. Your satisfaction is our pride!
+        </p>
+        <div class="footer-contact-item">
+          <i class="fa-solid fa-phone text-gold"></i>
+          <a href="tel:9113553538">9113553538</a>
+        </div>
+        <div class="footer-contact-item">
+          <i class="fa-solid fa-location-dot text-gold"></i>
+          <span data-i18n="footerAddressShort">Vanarasi Village, Muduvadi Post, Kolar Taluk, Karnataka</span>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading" data-i18n="footerQuickLinks">Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="#home" data-i18n="navHome">Home</a></li>
+          <li><a href="#menu" data-i18n="navMenu">Menu &amp; Prices</a></li>
+          <li><a href="#about" data-i18n="navAbout">About Us</a></li>
+          <li><a href="#order" data-i18n="navOrder">WhatsApp Order</a></li>
+          <li><a href="#contact" data-i18n="navContact">Location &amp; Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading" data-i18n="footerMenuHeading">Our Menu</h4>
+        <ul class="footer-menu-list">
+          <li>
+            <span data-i18n="halfKgLabel">Half KG Kabab</span>
+            <strong class="text-gold">₹200</strong>
+          </li>
+          <li>
+            <span data-i18n="oneKgLabel">1 KG Kabab</span>
+            <strong class="text-gold">₹400</strong>
+          </li>
+          <li class="menu-kannada-reminder">
+            <span data-i18n="kannadaHalfReminder">ಅರ್ಧ ಕೆ.ಜಿ. ಕಬಾಬ್ – ₹200</span>
+          </li>
+          <li class="menu-kannada-reminder">
+            <span data-i18n="kannadaOneReminder">1 ಕೆ.ಜಿ. ಕಬಾಬ್ – ₹400</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading" data-i18n="footerOrderHeading">Instant Order</h4>
+        <p class="footer-order-text" data-i18n="footerOrderPrompt">Click the button below to message us directly on WhatsApp:</p>
+        <a href="https://wa.me/919113553538?text=Hello%20Vanarasi%20Famous%20Kabab%2C%20I%20want%20to%20place%20an%20order." 
+           target="_blank" 
+           rel="noopener noreferrer" 
+           class="btn btn-whatsapp btn-block">
+          <i class="fa-brands fa-whatsapp"></i>
+          <span data-i18n="orderNow">Order on WhatsApp</span>
+        </a>
+        <div class="footer-lang-box">
+          <span data-i18n="chooseLanguage">Language:</span>
+          <button id="footerLangEn" class="footer-lang-btn active" onclick="switchLanguage('en')">English</button>
+          <button id="footerLangKn" class="footer-lang-btn" onclick="switchLanguage('kn')">ಕನ್ನಡ</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-container">
+        <p class="copyright-text">
+          &copy; <span id="currentYear">2026</span> <strong data-i18n="brandName">Vanarasi Famous Kabab</strong>. 
+          <span data-i18n="allRightsReserved">All Rights Reserved.</span>
+        </p>
+        <p class="location-tagline" data-i18n="footerBadge">
+          Vanarasi Village, Muduvadi Post, Kolar District, Karnataka.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Sticky WhatsApp Button (Bottom Right) -->
+  <aside class="floating-whatsapp-container" aria-label="Quick WhatsApp order">
+    <a href="https://wa.me/919113553538?text=Hello%20Vanarasi%20Famous%20Kabab%2C%20I%20want%20to%20place%20an%20order." 
+       target="_blank" 
+       rel="noopener noreferrer" 
+       class="floating-whatsapp-btn" 
+       id="floatingWhatsApp" 
+       title="Order on WhatsApp">
+      <i class="fa-brands fa-whatsapp"></i>
+      <span class="floating-tooltip" data-i18n="floatingTooltip">Order Kababs on WhatsApp!</span>
+    </a>
+  </aside>
+
+  <!-- Floating Quick Call Button for Mobile (Bottom Left) -->
+  <aside class="floating-call-container" aria-label="Quick Phone Call">
+    <a href="tel:9113553538" class="floating-call-btn" title="Call Shop">
+      <i class="fa-solid fa-phone"></i>
+    </a>
+  </aside>
+
+  <!-- JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
